@@ -1,9 +1,9 @@
 #include <SPI.h>
 #include <ILI9341_t3.h>
-#include <font_LiberationSansBold.h>
-#include <font_LiberationSansBoldItalic.h>
-#include <font_LiberationSans.h>
-#include <font_LiberationSansItalic.h>
+#include <D:\Users\Merli\Documents\Arduino\libraries\ILI9341_fonts\PJRCfonts\font_LiberationSansBold.h>
+#include <ILI9341_fonts/PJRCfonts/font_LiberationSansBoldItalic.h>
+#include <ILI9341_fonts/PJRCfonts/font_LiberationSans.h>
+#include <ILI9341_fonts/PJRCfonts/font_LiberationSansItalic.h>
 
 #define TFT_DC  9
 #define TFT_CS 10
@@ -41,4 +41,3 @@ void setup() {
 
 void loop(void) {
 }
-

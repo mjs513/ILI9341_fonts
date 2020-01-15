@@ -9,7 +9,7 @@
 #define TFT_CS 10
 
 // Use hardware SPI (#13, #12, #11) and the above for CS/DC
-ILI9341_t3 tft = ILI9341_t3(TFT_CS, TFT_DC);
+ILI9341_t3 tft = ILI9341_t3(TFT_CS, TFT_DC,8);
 
 void setup() {
   tft.begin();
