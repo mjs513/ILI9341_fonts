@@ -3,8 +3,8 @@
 
 #if __has_include(<RA8875.h>)
 	#include "RA8875.h"
-#elif __has_include(<ILI9488.h>)
-	#include "ili9488.h"
+#elif __has_include(<ILI9488_t3.h>)
+	#include "ILI9488_t3.h"
 #elif __has_include(<ILI9341_t3n.h>)
 	#include "ILI9341_t3n.h"
 #elif __has_include(<ILI9341_t3.h>)
