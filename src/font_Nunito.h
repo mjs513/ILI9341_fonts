@@ -11,7 +11,10 @@
 	#include "ILI9341_t3.h"
 #elif __has_include(<ST7735_t3.h>)
 	#include "ST7735_t3.h"
+#elif __has_include(<HX8357_t3n.h>)
+	#include "HX8357_t3n.h"
 #endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
