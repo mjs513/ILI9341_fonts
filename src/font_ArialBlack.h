@@ -13,6 +13,8 @@
 	#include "HX8357_t3n.h"
 #elif __has_include(<HX8357_t3n.h>)
 	#include "HX8357_t3n.h"
+#else
+	#include "def_ili9341_fonts.h"
 #endif
 
 #ifdef __cplusplus
