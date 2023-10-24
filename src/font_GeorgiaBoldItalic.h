@@ -18,8 +18,6 @@
 #else
 	#include "def_ili9341_fonts.h"
 #endif
-	#include "def_ili9341_fonts.h"
-#endif
 
 #ifdef __cplusplus
 extern "C" {
