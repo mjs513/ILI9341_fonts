@@ -10,7 +10,7 @@
 #elif __has_include(<ILI9341_t3.h>)
 	#include "ILI9341_t3.h"
 #elif __has_include(<ST7735_t3.h>)
-	#include "HX8357_t3n.h"
+	#include "ST7735_t3.h"
 #elif __has_include(<HX8357_t3n.h>)
 	#include "HX8357_t3n.h"
 #elif __has_include(<GC9A01A_t3n.h>)
